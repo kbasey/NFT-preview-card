@@ -2,7 +2,7 @@
 
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
+## Table of contents  
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/kbasey/NFT-preview-card)
-- Live Site URL: [Netlify]()
+- Live Site URL: [Netlify](https://starlit-bavarois-21b0c3.netlify.app/)
 
 ## My process
 
@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-Working on this project I learned overlay two images using the positons relative and abolute.
+Working on this project I learned overlay two images using the positions relative and absolute.
 
 ```
 .img-equil {
