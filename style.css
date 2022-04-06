@@ -14,11 +14,11 @@ html {
 body {
     background-color: var(--dark-blue);
     font-family: 'Outfit', sans-serif;
-    height: 100%;
-    width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
 main {
@@ -47,9 +47,11 @@ main {
     margin: 0 1rem;
     padding: 7.7rem;
     position: absolute;
-    top: 3.4rem;
+    top: 3.7rem;
     border-radius: 12px;
     background-color: hsl(178, 100%, 50%, .5);
+    transition-property: all;
+    transition-duration: 2s;
 }
 
 .eye:hover {
@@ -57,7 +59,7 @@ main {
     margin: 0 1rem;
     padding: 7.7rem;
     position: absolute;
-    top: 3.4rem;
+    top: 3.7rem;
     border-radius: 12px;
     background-color: hsl(178, 100%, 50%, .5);
 }
@@ -71,6 +73,8 @@ h1 {
 h1 a {
     text-decoration: none;
     color: var(--white);
+    transition-property: color;
+    transition-duration: 2s;
 }
 
 h1 a:hover {
@@ -139,6 +143,8 @@ hr {
 .name {
     text-decoration: none;
     color: var(--white);
+    transition-property: color;
+    transition-duration: 2s;
 }
 
 .name:hover {
